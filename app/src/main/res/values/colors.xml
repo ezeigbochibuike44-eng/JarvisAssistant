@@ -1,0 +1,10 @@
+<resources>
+    <color name="jarvis_bg">#050810</color>
+    <color name="jarvis_bg_panel">#0D1420</color>
+    <color name="jarvis_cyan">#4DF3FF</color>
+    <color name="jarvis_cyan_dim">#0E7490</color>
+    <color name="jarvis_amber">#FFB020</color>
+    <color name="jarvis_amber_dim">#FF6A00</color>
+    <color name="jarvis_text">#EAFCFF</color>
+    <color name="jarvis_error">#FF4D4D</color>
+</resources>

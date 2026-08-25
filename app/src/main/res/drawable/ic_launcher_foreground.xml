@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer HUD ring -->
+    <path
+        android:pathData="M 54,12 A 42,42 0 1 1 53.9,12"
+        android:strokeColor="#123241"
+        android:strokeWidth="0.5"
+        android:fillColor="#00000000" />
+
+    <!-- Amber segmented arc -->
+    <path
+        android:pathData="M 54,18 A 36,36 0 1 1 53.9,18"
+        android:strokeColor="#FFB020"
+        android:strokeWidth="1.3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:trimPathStart="0"
+        android:trimPathEnd="0.3" />
+
+    <!-- Inner cyan ring -->
+    <path
+        android:pathData="M 54,24 A 30,30 0 1 1 53.9,24"
+        android:strokeColor="#0E7490"
+        android:strokeWidth="0.4"
+        android:fillColor="#00000000" />
+
+    <!-- Core glow -->
+    <path
+        android:pathData="M 54,34 A 20,20 0 1 1 53.9,34"
+        android:fillColor="#4DF3FF"
+        android:fillAlpha="0.85" />
+
+    <!-- Hexagon core mark -->
+    <path
+        android:pathData="M 54,42 L 62,48 L 62,58 L 54,64 L 46,58 L 46,48 Z"
+        android:strokeColor="#EAFCFF"
+        android:strokeWidth="0.6"
+        android:fillColor="#00000000" />
+
+    <!-- Center dot -->
+    <path
+        android:pathData="M 54,54 m -3,0 a 3,3 0 1 1 6,0 a 3,3 0 1 1 -6,0"
+        android:fillColor="#EAFCFF" />
+
+</vector>

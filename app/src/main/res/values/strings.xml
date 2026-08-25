@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">J.A.R.V.I.S.</string>
+    <string name="accessibility_service_label">J.A.R.V.I.S. UI Assistant</string>
+    <string name="accessibility_service_desc">Lets J.A.R.V.I.S. read visible screen elements and perform taps, scrolls, and back/home navigation that you ask for by voice or text. It never reads or acts on anything without a command from you, and it never reads password fields.</string>
+    <string name="notification_listener_label">J.A.R.V.I.S. Notification Access</string>
+    <string name="foreground_service_channel_name">J.A.R.V.I.S. Assistant</string>
+    <string name="foreground_service_channel_desc">Keeps the voice assistant and status monitoring active</string>
+    <string name="screen_capture_channel_name">J.A.R.V.I.S. Screen Capture</string>
+</resources>
